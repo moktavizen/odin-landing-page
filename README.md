@@ -1,2 +1,7 @@
-# odin-landing-page
-The Odin Project: Landing Page
+# Project: Landing Page
+
+This project will apply the following skills:
+
+- Basic HTML
+- Basic CSS
+- Flexbox
