@@ -52,15 +52,12 @@ body {
 
 .hero .section-container {
   display: flex;
-  align-items: center;
-  height: 650px;
-}
-
-.hero-container {
-  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: flex-end;
   justify-content: space-between;
-  flex: 1;
+  align-content: center;
   gap: 32px;
+  height: 650px;
 }
 
 .hero-description {
