@@ -91,3 +91,32 @@ body {
 .hero-image {
   width: 470px;
 }
+
+.information {
+  background-color: white;
+  color: #1f2937;
+  text-align: center;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+  margin: 48px 0;
+}
+
+.informations-container {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  margin-bottom: 96px;
+}
+
+.information-wrapper {
+  max-width: 160px;
+}
+
+.information-image {
+  border-radius: 12px;
+  border: #3882f6 4px solid;
+  max-width: 160px;
+}
