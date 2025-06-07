@@ -98,17 +98,21 @@ body {
   text-align: center;
 }
 
+.information .section-container {
+  padding: 48px 32px 96px 32px;
+}
+
 .information-header {
   font-size: 36px;
   font-weight: 900;
-  margin: 48px 0;
+  margin-bottom: 48px;
 }
 
 .informations-container {
   display: flex;
-  justify-content: center;
-  gap: 64px;
-  margin-bottom: 96px;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .information-wrapper {
