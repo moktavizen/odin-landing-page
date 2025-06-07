@@ -110,11 +110,9 @@ body {
 
 .informations-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 32px;
-  max-width: 950px;
-  margin: 0 auto;
+  gap: 64px;
 }
 
 .information-wrapper {
@@ -181,6 +179,7 @@ body {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 32px;
   max-width: 880px;
   margin: 0 auto;
@@ -204,4 +203,18 @@ body {
   border: #f9faf8 solid 2px;
   border-radius: 10px;
   flex: none;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.footer .section-container {
+  text-align: center;
+  padding: 32px;
+}
+
+.footer-text {
+  font-size: 18px;
 }
