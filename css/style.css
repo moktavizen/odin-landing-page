@@ -93,7 +93,7 @@ body {
 }
 
 .information {
-  background-color: white;
+  background-color: #f9faf8;
   color: #1f2937;
   text-align: center;
 }
@@ -111,18 +111,24 @@ body {
 .informations-container {
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
+  flex-wrap: wrap;
+  gap: 32px;
+  max-width: 950px;
   margin: 0 auto;
 }
 
 .information-wrapper {
-  max-width: 160px;
+  max-width: 190px;
 }
 
 .information-image {
   border-radius: 12px;
   border: #3882f6 4px solid;
-  max-width: 160px;
+  max-width: 190px;
+}
+
+.information-text {
+  font-size: 18px;
 }
 
 .quote {
@@ -152,4 +158,50 @@ body {
 .author {
   font-size: 24px;
   color: #1f2937;
+}
+
+.sign-up {
+  background-color: #f9faf8;
+}
+
+.sign-up .section-container {
+  display: flex;
+  padding: 96px 32px;
+}
+
+.sign-up-card {
+  background-color: #3882f6;
+  color: #f9faf8;
+  flex: 1;
+  padding: 48px;
+  border-radius: 10px;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  max-width: 880px;
+  margin: 0 auto;
+}
+
+.sign-up-header {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.sign-up-text {
+  font-size: 18px;
+}
+
+.sign-up-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 8px 32px;
+  border: #f9faf8 solid 2px;
+  border-radius: 10px;
+  flex: none;
 }
